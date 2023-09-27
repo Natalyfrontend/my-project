@@ -90,3 +90,29 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+/* end header */
+
+.hero{
+    padding: 28px 0 68px 0;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero__content {
+    max-width: 593px;
+    width: 100%;
+}
+
+.hero__image {
+    max-width: 696px;
+    width: 100%;
+}
